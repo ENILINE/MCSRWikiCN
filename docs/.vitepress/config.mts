@@ -12,7 +12,7 @@ export default defineConfig({
       { text: "主页", link: "/" },
       { text: "新手入门", link: "/guide/quickstart/BasicRules" },
       { text: "进阶技巧", link: "/advanced/rules/SubmitRules" },
-      { text: "资源中心", link: "/resources/Weblink" },
+      { text: "资源中心", link: "/resources/WebLink" },
       { text: "贡献", link: "/contribute/Format" },
     ],
 
@@ -77,7 +77,7 @@ export default defineConfig({
           text: "有用的技巧",
           collapsed: false,
           base: "/advanced/skills",
-          items: [],
+          items: [{ text: "零循环入门", link: "/ZeroCycle" }],
         },
       ],
       // 以下为资源区域侧边栏
